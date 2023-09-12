@@ -1,32 +1,45 @@
-.etusivu {
-    background-color: white;
-}
-.etusivu h1 {
-    color: black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    margin-top: 10px;
-    padding-left: 200px;
-    border: 1px dotted black;
-    background-color: white;
+.etusivu h1{
     text-align: center;
+    background-color: black;
+    color: white;
+}
+ .etusivu button {
+        width:100px;
+        height:40px;
+        position: relative;
+        z-index: 2;
+        background: orange; 
 }
 
 .etusivu h2 {
-    margin-bottom: 40px;
-}
-h3 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-p {
-
-color: black;
+    position: relative;
+    color: white;
+    top: 2%;
 }
 
-button {
-
+.etusivu h3 {
+    position: relative;
+    color: white;
 }
+
+.etusivu p {
+    position:relative;
+    color: white;
+}
+
+.etusivu {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image:url(profiili.jpg) no-repeat;
+}
+
+.etusivu img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
 
 .tietoa{
     padding-top: 4px;
@@ -61,10 +74,6 @@ button {
 .historia li {
 font-style: strong;
 font-size: 20px;
-}
-
-.nykyinen{
-
 }
 
 .muut h2 {
