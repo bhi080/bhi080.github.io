@@ -6,9 +6,22 @@ html {
     background-position: center center;
  }
 
+ .tietoa img{
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin-right: 15%;
+    filter: drop-shadow(10px 10px 10px #A4BBFF);
+ }
+
+ .musiikki ul{
+    float: left;
+ }
+
 .etusivu h1{
     text-align: center;
     color: white;
+    filter: drop-shadow(10px 17px 1px #A4BBFF);
 }
 
 div.container
@@ -55,7 +68,8 @@ div.borderYtoX button:after
 
 div.container button:hover{
     background-color:rgb(27, 13, 27);
-    transition: 2s;
+    transform: scale(1.3);
+    transition: .5s;
 }
 
 div.borderYtoX button:hover:before, div.borderYtoX button:hover:after
@@ -85,7 +99,7 @@ div.borderYtoX button:hover:before, div.borderYtoX button:hover:after
     position: fixed;
     height: 100%;
     width: 100%;
-    background-image:url(profiili.jpg) no-repeat;
+    background-image:url(tausta.jpg) no-repeat;
 }
 
 .etusivu img{
