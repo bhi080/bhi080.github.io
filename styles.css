@@ -31,6 +31,7 @@ html {
 
 
 .etusivu h1 {
+    position:static;
     text-align: center;
     color: white;
     filter: drop-shadow(2px 2px 1px red);
@@ -340,8 +341,3 @@ html {
     margin-top: 12%;
     filter: drop-shadow(2px 2px 1px red);
 }
-
-.youtube-video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-  }
