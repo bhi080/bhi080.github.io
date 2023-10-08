@@ -7,7 +7,9 @@ html {
  }
 
  .upotus {
+    margin-top: 90px;
     margin-left: 35%;
+    filter: drop-shadow(2px 2px 1px red);
  }
 
  .tietoa img {
@@ -80,6 +82,11 @@ html {
     width: 100%;
 }
 
+.tulevaisuus img {
+    width: 40%;
+    height: 40%;
+}
+
 .etusivu h2 {
     position: relative;
     color: white;
@@ -97,11 +104,16 @@ html {
     filter: drop-shadow(2px 2px 1px red);
 }
 
+.demo {
+    margin-left: 34%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 .etusivu p {
     position:relative;
     color: white;
     font-variant: small-caps;
-    filter:drop-shadow(2px 1px 1px gray);
 }
 
 .etusivu {
@@ -259,7 +271,7 @@ html {
 .etusivuAla {
     color: white;
     position: static;
-    margin-top: 41%;
+    margin-top: 45%;
     text-align: center;
     filter: drop-shadow(1px 1px 1px red);
     font-variant: small-caps;
@@ -296,14 +308,13 @@ html {
 }
 
 .tulevaisuus p {
-    font-style: italic;
     font-weight: bolder;
     color: white;
 }
 
 .tulevaisuusAla {
     color:white;
-    margin-top: 26%;
+    margin-top: 8%;
     text-align: center;
     font-variant: small-caps;
     filter: drop-shadow(2px 2px 1px red);
